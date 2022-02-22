@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+   
+
+
+.box{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+}
+
+.products{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img{
+    width: 500px;
+}
+
+#red_bg{
+    background-color: red;
+    color: yellow;
+}
+
+#green_bg{
+    background-color: green;
+    color: yellow;
+}
+
+#yellow_bg{
+    background-color: yellow;
+    color: green;
+}
+
